@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets and credentials - never commit
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+client_secret*.json
+service-account*.json
+
+# Apps Script tooling - .clasp.json holds the script ID
+.clasp.json
+.clasprc.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local documents - keep real data out of the repo
+*.pdf
+*.eml
+*.mbox
+*.csv
