@@ -36,3 +36,7 @@ venv/
 *.eml
 *.mbox
 *.csv
+
+# Apps Script editor tooling - generated typings and the config that points at them
+.gas-sync/
+jsconfig.json
